@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3311e3ac16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Paula Pintado</title>
+</head>
+<body>
+    <section id="cover">
+        <section id="coverText">
+            <h1>Hello World!</h1>
+            <p>My name is Paula Pintado. Frontend Developer</p>
+        </section>
+        <section id="coverImage">
+            <img src="./media/Component1.svg" alt="" >
+        </section>
+    </section>
+    <section id="about">
+        <section id="aboutImage">
+            <img src="./media/porta.jpg" alt="photo" id="me">
+        </section>
+        <section id="aboutInfo">
+            <h2>About Me</h2>
+            <p>Bachelor in Economics. My interest in  Digital Economy motivated me to become a Frontend Developer.</p>
+            <p>I have experience in Project Management, Administrative Processes, and Finance.</p>
+            <p>Other than coding, I spend most of my free time learning new languages and reading.</p>
+        </section>
+    </section>
+    <section id="projects">
+        <h2>My projects</h2>
+        <div id="carousel">
+            <i class="fas fa-chevron-left" id="previous-option"></i>
+            <div id="infoProject">
+                <h3 id="projectName"></h3>
+                <p id="projectInfo"></p>
+                <a href="" id="buttonUrl" target="_blank">See</a>
+            </div>
+            <div id="photoProject">
+                <img src="./media/5sn4uo.gif" alt="project-image" id="image">
+            </div>
+            <i class="fas fa-chevron-right" id="next-option"></i>
+        </div>
+    </section>
+    <section id="toolkit">
+        <h2>My toolkit</h2>
+        <div>
+            <img src="./media/figma.svg" alt="figma" class="tool">
+            <img src="./media/xd.svg" alt="adobe-xd" class="tool">
+            <img src="./media/html-5.png" alt="html" class="tool">
+            <img src="./media/css.png" alt="css" class="tool">
+            <img src="./media/js.png" alt="javascript" class="tool">
+            <img src="./media/node-js.png" alt="node" class="tool">
+            <img src="./media/react.svg" alt="react.js" class="tool">
+            <img src="./media/jest.svg" alt="jest" class="tool">
+            <img src="./media/php.png" alt="php" class="tool">
+            <img src="./media/1.svg" alt="something" class="tool">
+            <img src="./media/docker.png" alt="docker" class="tool">
+            <img src="./media/git.svg" alt="git" class="tool">
+            <img src="./media/github.png" alt="github" class="tool">
+            <img src="./media/heroku.svg" alt="heroku" class="tool">
+        </div>
+        
+    </section>
+    <section id="contactme">
+        <section id="contactText">
+            <h2>Get in touch</h2>
+            <p>Feel free to aks a question and I will reply as soon as possible</p>
+            <p>Or find me in:</p>
+            <a href="https://www.linkedin.com/in/paula-pintado/" target="_blank" class="contactIcon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Pauladriana?tab=repositories" target="_blank" class="contactIcon"><i class="fab fa-github"></i></a>
+        </section>
+        <section id="contactForm">
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="Send"/>
+              </form>
+        </section>
+    </section>
+
+
+    <script src="./carousel.js"></script>
+</body>
+</html>
